@@ -1,0 +1,84 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 3, 2018, 11:03:06 AM
+    Author     : Sreya Rajendran
+*/
+
+body{
+    font-family:arial;
+    font-size: 15px;
+    line-height:1.6em;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    width:60%;
+    margin:0 auto;
+    overflow:auto;
+}
+
+header{
+    border-bottom: 3px lightgrey solid;
+}
+
+footer{
+    border-top: 3px lightgrey solid;
+    text-align: center;
+    padding-top: 5px;
+    margin-top: 20px;
+}
+
+main{
+    padding-bottom: 20px;
+}
+
+.start{
+    display:inline-block;
+    background:#f4f4f4;
+    color:#666666;
+    border:1px dotted #ccc;
+    padding: 6px 13px;
+}
+
+.current{
+    padding: 10px;
+    background: #f4f4f4;
+    border:#ccc dotted 1px;
+    margin:20px 0 10px 0;
+}
+
+label{
+    display:inline-block;
+    width:180px;
+}
+
+input[type="text"]{
+    width:97%;
+    padding:4px;
+    border-radius:5px;
+    border:1px #ccc solid;
+}
+
+input[type="number"]{
+    width:50px;
+    padding:4px;
+    border-radius:5px;
+    border:1px #ccc solid;
+}
+
+@media only screen and (max-width:960px){
+    .container{
+        width:80%;
+    }
+}
